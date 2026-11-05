@@ -1,0 +1,29 @@
+{
+  "name": "alura-docs-websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/servidor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbcshark/alura-docs-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpbcshark/alura-docs-websockets/issues"
+  },
+  "homepage": "https://github.com/jpbcshark/alura-docs-websockets#readme",
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
