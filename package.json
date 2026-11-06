@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/socket-back.js"
+    "dev": "node --env-file=atlas-credentials.env ./node_modules/nodemon/bin/nodemon.js src/socket-back.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jpbcshark/alura-docs-websockets#readme",
   "dependencies": {
     "express": "^4.22.3",
+    "mongodb": "4.11",
     "socket.io": "^4.8.4"
   },
   "devDependencies": {
