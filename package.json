@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "alura-docs-websockets",
   "version": "1.0.0",
   "description": "",
@@ -6,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/servidor.js"
+    "dev": "nodemon src/socket-back.js"
   },
   "repository": {
     "type": "git",
